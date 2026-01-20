@@ -4,8 +4,8 @@
   "description": "Quality Assurance 5: American / British English Translator",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "mocha --timeout 5000 --require @babel/register --recursive --exit --ui tdd tests/"
+    "test": "mocha --timeout 5000 --require @babel/register --recursive --exit --ui tdd tests/",
+    "check": "node check-tests.js"
   },
   "dependencies": {
     "@babel/core": "^7.11.6",
